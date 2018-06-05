@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="sod-GK-Kuf" customClass="MyTableViewCell" customModule="tableViewProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="629" height="252"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i2j-BE-b8o">
+                    <rect key="frame" x="8" y="8" width="613" height="236"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jjo-FF-QnT">
+                            <rect key="frame" x="20" y="26.5" width="296" height="150"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="150" id="Uy5-5W-nSX"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="0.34499662390000002" blue="0.32247444110000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2dG-Dv-Zdf">
+                            <rect key="frame" x="20" y="176" width="120" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="q4F-95-c6O"/>
+                                <constraint firstAttribute="width" secondItem="2dG-Dv-Zdf" secondAttribute="height" multiplier="2:1" id="vFI-kb-Ig0"/>
+                            </constraints>
+                            <state key="normal" image="schedule"/>
+                            <connections>
+                                <action selector="actionCreateEvent:" destination="sod-GK-Kuf" eventType="touchUpInside" id="0bf-TB-qOp"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="2dG-Dv-Zdf" firstAttribute="leading" secondItem="i2j-BE-b8o" secondAttribute="leading" constant="20" id="6u0-8W-OZh"/>
+                        <constraint firstAttribute="bottom" secondItem="2dG-Dv-Zdf" secondAttribute="bottom" id="NDW-up-PVZ"/>
+                        <constraint firstItem="2dG-Dv-Zdf" firstAttribute="top" secondItem="jjo-FF-QnT" secondAttribute="bottom" constant="-0.5" id="ZAy-IH-TPv"/>
+                        <constraint firstAttribute="trailing" secondItem="2dG-Dv-Zdf" secondAttribute="trailing" constant="219" id="nop-61-3dd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.34499662390000002" blue="0.32247444110000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="nNM-Fb-Hm1" firstAttribute="top" secondItem="jjo-FF-QnT" secondAttribute="top" id="4xd-el-Y0a"/>
+                <constraint firstItem="i2j-BE-b8o" firstAttribute="leading" secondItem="nNM-Fb-Hm1" secondAttribute="leading" constant="8" id="8FD-ie-bZz"/>
+                <constraint firstItem="i2j-BE-b8o" firstAttribute="top" secondItem="nNM-Fb-Hm1" secondAttribute="top" constant="8" id="S8V-AC-EuG"/>
+                <constraint firstItem="nNM-Fb-Hm1" firstAttribute="trailing" secondItem="i2j-BE-b8o" secondAttribute="trailing" constant="8" id="SM2-kv-Kuz"/>
+                <constraint firstItem="i2j-BE-b8o" firstAttribute="bottom" secondItem="nNM-Fb-Hm1" secondAttribute="bottom" constant="-8" id="bgZ-gk-HFw"/>
+                <constraint firstItem="nNM-Fb-Hm1" firstAttribute="trailing" secondItem="jjo-FF-QnT" secondAttribute="trailing" constant="305" id="g6y-CR-87Q"/>
+                <constraint firstItem="jjo-FF-QnT" firstAttribute="leading" secondItem="nNM-Fb-Hm1" secondAttribute="leading" constant="28" id="s7R-xu-Uwq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="nNM-Fb-Hm1"/>
+            <connections>
+                <outlet property="cellView" destination="i2j-BE-b8o" id="fTN-hl-n9f"/>
+                <outlet property="myButton" destination="2dG-Dv-Zdf" id="olD-Ro-dUB"/>
+                <outlet property="myLabel" destination="jjo-FF-QnT" id="s3o-Ru-dag"/>
+            </connections>
+            <point key="canvasLocation" x="292.5" y="188"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="schedule" width="50" height="50"/>
+    </resources>
+</document>

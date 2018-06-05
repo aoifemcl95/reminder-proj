@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CalenderSelectionViewController" customModule="tableViewProject" customModuleProvider="target">
+            <connections>
+                <outlet property="datePicker" destination="3jR-dm-Ci8" id="dLS-mi-7Bc"/>
+                <outlet property="doneButton" destination="pEr-tB-fAa" id="fyS-51-2gf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="3jR-dm-Ci8">
+                    <rect key="frame" x="0.0" y="169" width="375" height="216"/>
+                    <date key="date" timeIntervalSinceReferenceDate="549385883.16101205">
+                        <!--2018-05-30 15:11:23 +0000-->
+                    </date>
+                </datePicker>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEr-tB-fAa">
+                    <rect key="frame" x="235" y="533" width="55" height="30"/>
+                    <state key="normal" image="whitetick"/>
+                    <connections>
+                        <action selector="doneButtonSelected:" destination="-1" eventType="touchUpInside" id="ruq-VM-eWU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ot-76-sXc">
+                    <rect key="frame" x="91" y="533" width="30" height="30"/>
+                    <state key="normal" image="icons8-delete-50"/>
+                    <connections>
+                        <action selector="cancelButtonSelected:" destination="-1" eventType="touchUpInside" id="emR-sx-lwX"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431369999995" green="0.83529411760000005" blue="0.85490196080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="3jR-dm-Ci8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="3gj-wa-qRh"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="3jR-dm-Ci8" secondAttribute="trailing" id="7sn-cL-Zvg"/>
+                <constraint firstItem="3jR-dm-Ci8" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="149" id="KPI-KO-ZkB"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pEr-tB-fAa" secondAttribute="trailing" constant="85" id="UuD-fL-Eas"/>
+                <constraint firstItem="pEr-tB-fAa" firstAttribute="top" secondItem="3jR-dm-Ci8" secondAttribute="bottom" constant="148" id="bu3-7K-Sep"/>
+                <constraint firstItem="6ot-76-sXc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="91" id="fqF-S9-Yc7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="6ot-76-sXc" secondAttribute="bottom" constant="104" id="nIg-AQ-DiF"/>
+                <constraint firstItem="pEr-tB-fAa" firstAttribute="leading" secondItem="6ot-76-sXc" secondAttribute="trailing" constant="114" id="o8r-ky-T1Z"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="pEr-tB-fAa" secondAttribute="bottom" constant="104" id="uLm-Vk-4BM"/>
+                <constraint firstItem="6ot-76-sXc" firstAttribute="top" secondItem="3jR-dm-Ci8" secondAttribute="bottom" constant="148" id="w9w-oE-OXL"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icons8-delete-50" width="50" height="50"/>
+        <image name="whitetick" width="24" height="24"/>
+    </resources>
+</document>
