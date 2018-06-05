@@ -78,6 +78,17 @@ class MyTableViewCell: UITableViewCell {
         myLabel.text = item.name
         self.toDoItem = item
     }
+    
+    override func draw(_ rect: CGRect) {
+        cellView.layer.borderColor = UIColor.white.cgColor
+        cellView.layer.borderWidth = 3.0
+        cellView.layer.shadowColor = UIColor.lightGray.cgColor
+        cellView.layer.shadowRadius = 1.0
+        cellView.layer.shadowOpacity = 1.0
+        cellView.layer.cornerRadius = 5.0
+        cellView.layer.shadowOffset = CGSize(width:0, height: 2)
+        cellView.layer.shadowPath = UIBezierPath(rect: cellView.bounds).cgPath
+    }
 
     
     //allows you to cancel the recognition of a gesture before it has begun

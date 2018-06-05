@@ -49,7 +49,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.updateCellForItem(item: items[indexPath.row])
         cell.delegate = self
         cell.isExpanded = self.expandedRows.contains(indexPath.row)
-        cell.backgroundColor = UIColor.init(red: 255, green: 211, blue: 0, alpha: 0.7)
+//        cell.backgroundColor = UIColor.init(red: 255, green: 211, blue: 0, alpha: 0.7)
         return cell
     }
     
