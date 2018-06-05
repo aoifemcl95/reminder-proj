@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "61"
             endingLineNumber = "61"
-            landmarkName = "identifier"
+            landmarkName = "nib"
             landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
@@ -36,11 +36,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tableViewProject/ViewController.swift"
-            timestampString = "548719889.7478451"
+            timestampString = "549929845.424554"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "139"
-            endingLineNumber = "139"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
             landmarkName = "addNewItemToDoItem(title:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -52,13 +52,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tableViewProject/ViewController.swift"
-            timestampString = "548719889.747929"
+            timestampString = "549929845.424879"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
             landmarkName = "tableView(_:editActionsForRowAt:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tableViewProject.ViewController.tableView(__ObjC.UITableView, editActionsForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;Swift.Array&lt;__ObjC.UITableViewRowAction&gt;&gt;"
+                  moduleName = "tableViewProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aoifemclaughlin/Documents/repositories/reminder%20proj/tableViewProject/ViewController.swift"
+                  timestampString = "549928022.718824"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__ObjC.UITableViewRowAction, Foundation.IndexPath) -&gt; () in tableViewProject.ViewController.tableView(__ObjC.UITableView, editActionsForRowAt: Foundation.IndexPath) -&gt; Swift.Optional&lt;Swift.Array&lt;__ObjC.UITableViewRowAction&gt;&gt;"
+                  moduleName = "tableViewProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aoifemclaughlin/Documents/repositories/reminder%20proj/tableViewProject/ViewController.swift"
+                  timestampString = "549928022.722339"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "38">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -68,11 +100,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tableViewProject/ViewController.swift"
-            timestampString = "548719889.748004"
+            timestampString = "549929845.425033"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
             landmarkName = "didTapAddItemButton(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -84,11 +116,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tableViewProject/ViewController.swift"
-            timestampString = "548719889.7480789"
+            timestampString = "549929845.4251699"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
             landmarkName = "tableView(_:editActionsForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -100,11 +132,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tableViewProject/ViewController.swift"
-            timestampString = "548719889.748152"
+            timestampString = "549929845.425289"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
             landmarkName = "tableView(_:editActionsForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -116,7 +148,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tableViewProject/ViewController.swift"
-            timestampString = "548719889.7482229"
+            timestampString = "549929845.425415"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
@@ -132,45 +164,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tableViewProject/ViewController.swift"
-            timestampString = "548719889.748297"
+            timestampString = "549929845.425537"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "147"
-            endingLineNumber = "147"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
             landmarkName = "didTapAddItemButton(_:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "tableViewProject.ViewController.didTapAddItemButton(__ObjC.UIBarButtonItem) -&gt; ()"
-                  moduleName = "tableViewProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aoifemclaughlin/Downloads/tableView/tableViewProject/ViewController.swift"
-                  timestampString = "548718401.473961"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "151"
-                  endingLineNumber = "151"
-                  offsetFromSymbolStart = "1196">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__ObjC.UIAlertAction) -&gt; () in tableViewProject.ViewController.didTapAddItemButton(__ObjC.UIBarButtonItem) -&gt; ()"
-                  moduleName = "tableViewProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aoifemclaughlin/Downloads/tableView/tableViewProject/ViewController.swift"
-                  timestampString = "548718401.476812"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "152"
-                  endingLineNumber = "152"
-                  offsetFromSymbolStart = "46">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -180,11 +180,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tableViewProject/ViewController.swift"
-            timestampString = "548719889.7483701"
+            timestampString = "549929845.425652"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
             landmarkName = "didTapAddItemButton(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -201,8 +201,72 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
             endingLineNumber = "30"
-            landmarkName = "toDoItem"
-            landmarkType = "24">
+            landmarkName = "MyTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tableViewProject.MyTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; tableViewProject.MyTableViewCell"
+                  moduleName = "tableViewProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aoifemclaughlin/Documents/repositories/reminder%20proj/tableViewProject/MyTableViewCell.swift"
+                  timestampString = "549928022.754904"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1277">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tableViewProject.MyTableViewCell.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;tableViewProject.MyTableViewCell&gt;"
+                  moduleName = "tableViewProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aoifemclaughlin/Documents/repositories/reminder%20proj/tableViewProject/MyTableViewCell.swift"
+                  timestampString = "549928022.756592"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1151">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tableViewProject/ViewController.swift"
+            timestampString = "549929845.425815"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "tableView(_:heightForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tableViewProject/ViewController.swift"
+            timestampString = "549929845.425949"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "tableView(_:heightForRowAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

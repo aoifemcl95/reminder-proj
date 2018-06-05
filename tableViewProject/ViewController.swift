@@ -90,6 +90,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         case false:
             self.expandedRows.insert(indexPath.row)
         }
+        tableView.reloadRows(at: [indexPath], with: .automatic)
         
         cell.isExpanded = !cell.isExpanded
         
@@ -102,14 +103,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if ((cell) != nil)
         {
             if (cell!.isExpanded) {
-                return 150
+                return 100
             }
             else {
-                return 210
+                return 50
             }
         }
         else {
-            return 150
+            return 50
     }
     }
     
