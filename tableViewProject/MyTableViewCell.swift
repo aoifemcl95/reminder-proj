@@ -56,6 +56,16 @@ class MyTableViewCell: UITableViewCell {
         }
     }
     
+    override func draw(_ rect: CGRect) {
+        cellView.layer.borderWidth = 1.0
+        cellView.layer.borderColor = UIColor.white.cgColor
+        cellView.layer.shadowColor = UIColor.lightGray.cgColor
+        cellView.layer.shadowRadius = 2.0
+        cellView.layer.shadowOpacity = 1.0
+        cellView.layer.shadowOffset = CGSize(width:0, height: 2)
+        cellView.layer.shadowPath = UIBezierPath(rect: cellView.bounds).cgPath
+    }
+    
     static var nib:UINib {
         return UINib(nibName: identifier, bundle: nil)
     }

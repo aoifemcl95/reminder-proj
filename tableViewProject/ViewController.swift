@@ -26,7 +26,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.tableView.register(nibName, forCellReuseIdentifier: "MyTableViewCell")
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.estimatedRowHeight = 50
+        tableView.estimatedRowHeight = 70
         tableView.rowHeight = UITableViewAutomaticDimension
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(ViewController.didTapAddItemButton(_:)))
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .edit, target: self, action: #selector(ViewController.didTapEditItemButton(_:)))
@@ -45,11 +45,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MyTableViewCell") as! MyTableViewCell
-//        let item = items[0]
         cell.updateCellForItem(item: items[indexPath.row])
         cell.delegate = self
         cell.isExpanded = self.expandedRows.contains(indexPath.row)
-        cell.backgroundColor = UIColor.init(red: 255, green: 211, blue: 0, alpha: 0.7)
+//        cell.backgroundColor = UIColor.init(red: 220, green: 220, blue: 220, alpha: 1.0)
+//        cell.backgroundColor = UIColor.init(red: 255, green: 211, blue: 0, alpha: 0.7)
         return cell
     }
     
@@ -102,14 +102,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if ((cell) != nil)
         {
             if (cell!.isExpanded) {
-                return 150
+                return 120
             }
             else {
-                return 210
+                return 70
             }
         }
         else {
-            return 150
+            return 70
     }
     }
     
